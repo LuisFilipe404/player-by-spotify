@@ -94,6 +94,7 @@ body {
 .track__container {
     padding: 0px 134px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     column-gap: 80px;
     row-gap: 80px;
