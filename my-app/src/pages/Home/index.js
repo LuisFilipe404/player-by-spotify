@@ -8,7 +8,7 @@ const HomePage = () => {
     const [accessToken, setAccessToken] = useState("");  
 
     const clientId = "6e5d94314bb942c2b2e7c963eb8cd176";
-    const redirectUri = "https://player-by-spotify-s2nb.vercel.app/callback";
+    const redirectUri = "http://localhost:3000/callback";
     const scopes = ["user-read-private", "user-read-email"];
 
     const handleLogin = () => {
